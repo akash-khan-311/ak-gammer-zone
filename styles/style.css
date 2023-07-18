@@ -54,7 +54,7 @@
   --main-color: #2d25a0;
   --main-text-color: #534c64;
   --main-heading-color: #0b0223;
-  --heading-gradient-color: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  --heading-gradient-color: #f948b2;
   --secondary-color: #deb887;
   --primary-button-color: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
   --secondary-button-color: #4ec5f7;
@@ -151,15 +151,7 @@ span {
 }
 
 .btn-primary {
-  color: white;
-  display: inline-block;
-  background-image: var(--button-color);
-  padding: 10px 25px;
-  font-size: 20px;
-  text-align: center;
-  text-transform: uppercase;
-  transition: 0.5s;
-  background-size: 200% auto;
+  background-image: var(--primary-button-color);
 }
 
 .btn:hover {
@@ -167,14 +159,24 @@ span {
 }
 .btn-secondary {
   background: var(--secondary-button-color);
+}
+.btn-secondary,
+.btn-primary {
+  border: none;
   color: white;
   display: inline-block;
   padding: 10px 25px;
-  font-size: 20px;
+  font-size: 16px;
   text-align: center;
   text-transform: uppercase;
   transition: 0.5s;
   background-size: 200% auto;
+  border-radius: 48px;
+  -webkit-border-radius: 48px;
+  -moz-border-radius: 48px;
+  -ms-border-radius: 48px;
+  -o-border-radius: 48px;
+  cursor: pointer;
 }
 
 /* =======Header Part Styles======== */
@@ -232,4 +234,29 @@ span {
 
 .follow .youtube {
   color: red;
+}
+
+/* b.Banner Styles */
+.banner-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-content {
+  width: 50%;
+}
+.banner-img {
+  width: 50%;
+}
+.banner-content h1,
+.banner-content h2 {
+  text-transform: uppercase;
+  margin: 0;
+}
+.banner-content > .list p > i {
+  color: var(--heading-gradient-color);
+  margin-right: 10px;
+}
+.button {
+  margin-top: 40px;
 }
