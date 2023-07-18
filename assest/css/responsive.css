@@ -44,6 +44,14 @@
   .we-are-img {
     width: 90%;
   }
+  /* Video Card */
+  .games-card-items {
+    grid-template-columns: 1fr;
+  }
+  .online-games-part {
+    width: 90%;
+    margin: 0 auto;
+  }
 }
 
 /* // Small devices (landscape phones, 576px and up) */
@@ -92,6 +100,14 @@
   .we-are-img {
     width: 90%;
   }
+  /* Video Card */
+  .games-card-items {
+    grid-template-columns: 1fr 1fr;
+  }
+  .online-games-part {
+    width: 90%;
+    margin: 0 auto;
+  }
 }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -123,7 +139,10 @@
   .we-are-img {
     width: 60%;
   }
-  /* Banner */
+  .online-games-part {
+    width: 90%;
+    margin: 0 auto;
+  }
 }
 
 /* // Large devices (desktops, 992px and up) */
