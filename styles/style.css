@@ -1,0 +1,187 @@
+/*	==========================================================
+	-------------------->>> CSS Styles <<<--------------------
+	==========================================================
+/*	==========================================================
+	*	Template Name: AK Gammer Zone
+	* 	Template URL: 
+	*	Template Descriptions: This is the template Of Ak Gammer Zone
+		---------------------
+	
+	*	About Author
+		------------
+		Author Name: Akash Khan
+		Author URL: http://akashkhan.com
+		Support: akashcc48@gmail.com
+	*	Get In Touch
+		------------
+		GitHub: https://github.com/akash-khan-311
+		Facebook: https://www.facebook.com/iyaRahmanirRahim
+		
+		Telegram: https://t.me/AKASHALIBD24
+	
+	*	Version Update
+		--------------
+		Version: 1.0
+	
+/*	=========================================================
+/* ==========================================================
+	Table of Content
+	----------------
+	00. Import Required Files
+	01. Root - Custom Properties
+	02. Utilities
+	03. Common Class Styles
+	04. 
+	05. 
+	06. 
+	07. 
+	08. 
+	09.
+	10.
+ ==========================================================
+/* ----------------------------------
+		00. Import Required Files		
+---------------------------------- */
+
+/* --→ Animation ←-- */
+
+/* ----------------------------------
+		01. Root - Custom Properties		
+---------------------------------- */
+
+:root {
+  /* --→ Colors ←-- */
+  --main-color: #2d25a0;
+  --main-text-color: #534c64;
+  --main-heading-color: #0b0223;
+  --heading-gradient-color: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  --secondary-color: #deb887;
+  --primary-button-color: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+  --secondary-button-color: #4ec5f7;
+  /* --→ Fonts ←-- */
+  --main-font: "Work Sans", sans-serif;
+  --heading-font: "Work Sans", sans-serif;
+  --text-font: "Work Sans", sans-serif;
+  --text-size: 18px;
+  --heading1-size: 80px;
+  --heading2-size: 48px;
+  --heading3-size: 24px;
+  --heading4-size: ;
+  --heading5-size: ;
+  --heading6-size: ;
+}
+
+/* ----------------------------------
+		02. Utilities		
+---------------------------------- */
+
+body {
+  color: var(--main-text-color);
+  font-family: var(--main-font);
+  font-size: var(--text-size);
+  line-height: 1.5em;
+  text-rendering: optimizeLegibility;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+h1 {
+  font-size: var(--heading1-size);
+  color: var(--heading-gradient-color);
+  line-height: 1.3em;
+}
+
+h2 {
+  font-size: var(--heading2-size);
+  color: var(--main-text-color);
+  line-height: 1.3em;
+}
+
+h3 {
+  font-size: var(--heading3-size);
+  color: var(--main-heading-color);
+  line-height: 1.3em;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--main-heading-color);
+}
+
+p {
+  font-size: var(--text-size);
+  line-height: 1.3em;
+  color: var(--main-text-color);
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+input,
+textarea,
+input:focus,
+textarea:focus {
+  display: inline-block;
+  font-family: var();
+  font-size: var();
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+span {
+  color: #f948b2;
+}
+
+/* ----------------------------------
+		03. Common Class Styles	
+---------------------------------- */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.btn-primary {
+  color: white;
+  display: inline-block;
+  background-image: var(--button-color);
+  padding: 10px 25px;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+}
+
+.btn:hover {
+  background-position: right center;
+}
+.btn-secondary {
+  background: var(--secondary-button-color);
+  color: white;
+  display: inline-block;
+  padding: 10px 25px;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+}
+
+/* =======Header Part Styles======== */
+/* a. Navbar Styles */
+.logo {
+  display: flex;
+  align-items: center;
+}
