@@ -106,7 +106,6 @@ h3 {
 a {
   display: inline-block;
   text-decoration: none;
-  text-transform: uppercase;
   color: var(--main-heading-color);
 }
 
@@ -149,7 +148,6 @@ span {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 60px 0;
 }
 
 .btn-primary {
@@ -181,7 +179,57 @@ span {
 
 /* =======Header Part Styles======== */
 /* a. Navbar Styles */
+#nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .logo {
   display: flex;
   align-items: center;
+}
+.nav-items {
+  display: flex;
+  align-items: center;
+}
+.nav-items li {
+  margin: 10px 0;
+}
+
+.nav-items li a {
+  margin: 0 10px;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+.nav-items li:hover a {
+  color: #f948b2;
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+}
+.follow {
+  display: flex;
+  align-items: center;
+}
+.follow {
+  border: 1px solid #ccc;
+  color: white;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  padding: 8px;
+}
+.follow p {
+  margin: 0;
+}
+.follow a {
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+.follow .youtube {
+  color: red;
 }
