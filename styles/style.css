@@ -361,3 +361,38 @@ span {
   padding: 20px 5px;
   font-size: 15px;
 }
+/* Feature Part Styles */
+
+.feature-part {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 100px 0;
+}
+.feature-content {
+  text-align: right;
+  margin-right: 10%;
+  width: 33%;
+  margin-bottom: 200px;
+}
+
+.feature-img {
+  margin-left: 50px;
+}
+.feature-img img {
+  width: 90%;
+  height: 90%;
+  margin-left: 50px;
+}
+.second-img {
+  width: 315px;
+  padding: 20px 0;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  position: relative;
+  bottom: 200px;
+  right: 100px;
+}
