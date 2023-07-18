@@ -396,3 +396,146 @@ span {
   bottom: 200px;
   right: 100px;
 }
+
+/* App Part Styles  */
+#app {
+  background: url(../assest/images/play-bg.jpg) no-repeat center center / cover
+    fixed;
+  padding: 100px 0;
+}
+
+.app-container {
+  display: flex;
+  justify-content: space-between;
+}
+.app-content {
+  margin: 0 30px;
+}
+.app-img {
+  margin: 0 30px;
+}
+.app-content h2,
+.app-content p {
+  color: white;
+}
+.app-img {
+  overflow: hidden;
+  border: 8px solid var(--heading-gradient-color);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.app-img img {
+  height: 100%;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+  -webkit-transition: 0.2s ease-in;
+  -moz-transition: 0.2s ease-in;
+  -ms-transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+}
+
+.app-img:hover img {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+/* Popular Games Part Styles */
+.popular-games {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 100px 0;
+}
+.game-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  border: 1px solid transparent;
+  margin: 5px 10px;
+  border-radius: 35px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  -ms-border-radius: 35px;
+  -o-border-radius: 35px;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+  cursor: pointer;
+}
+
+.game-item:hover {
+  border: 1px solid var(--heading-gradient-color);
+}
+.game-item:hover a {
+  color: var(--heading-gradient-color);
+}
+
+.game-item img {
+  width: 60px;
+  margin-right: 10px;
+}
+
+/* Footer Part Styles */
+#footer-section {
+  background-image: linear-gradient(
+    110.1deg,
+    rgba(30, 2, 83, 1) 44.2%,
+    rgba(198, 55, 160, 1) 138.2%
+  );
+}
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-logo img {
+  width: 90px;
+}
+.footer-logo h2 {
+  color: white;
+}
+.footer-menu ul li a {
+  color: white;
+}
+.footer-menu {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.footer-menu-items,
+.footer-menu2,
+.icon-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.footer-menu-items li,
+.icon-container i {
+  margin-right: 20px;
+}
+.icon-container {
+  margin: 30px 0;
+}
+
+.icon-container i {
+  font-size: 30px;
+  color: white;
+}
+
+.footer-menu2 li {
+  margin-right: 20px;
+}
+.footer-content p {
+  margin: 0;
+  text-align: center;
+  color: white;
+  padding: 20px 0;
+}
