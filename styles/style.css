@@ -31,9 +31,16 @@
 	01. Root - Custom Properties
 	02. Utilities
 	03. Common Class Styles
-	04. 
-	05. 
-	06. 
+	04. Header Part Styles
+			a.Navbar Styles
+			b.Banner Part Styles
+	05. Main Section Style
+			a. We are Part Styles
+			b. Video Card Styles
+			c.Feature Part Styles
+			d.App Part Styles
+			e.Popular Games Part Styles
+	06.Footer Part Styles
 	07. 
 	08. 
 	09.
@@ -180,6 +187,11 @@ span {
 }
 
 /* =======Header Part Styles======== */
+#header-section {
+  background: url(../assest/images/Group\ 14.png) no-repeat center center /
+    cover;
+  padding-bottom: 100px;
+}
 /* a. Navbar Styles */
 #nav-bar {
   display: flex;
@@ -236,14 +248,14 @@ span {
   color: red;
 }
 
-/* b.Banner Styles */
+/* b.Banner Part Styles */
 .banner-part {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .banner-content {
-  width: 50%;
+  width: 100%;
 }
 .banner-img {
   width: 50%;
@@ -260,8 +272,8 @@ span {
 .button {
   margin-top: 40px;
 }
-
-/* c. We are Part Styles */
+/* ============== 05. Main Section Styles=========== */
+/* a. We are Part Styles */
 
 .we-are-part {
   display: flex;
@@ -277,7 +289,7 @@ span {
   width: 40%;
 }
 
-/* Video Card Styles */
+/* b. Video Card Styles */
 
 .online-games-part {
   text-align: center;
@@ -361,7 +373,7 @@ span {
   padding: 20px 5px;
   font-size: 15px;
 }
-/* Feature Part Styles */
+/* c.Feature Part Styles */
 
 .feature-part {
   display: flex;
@@ -397,7 +409,7 @@ span {
   right: 100px;
 }
 
-/* App Part Styles  */
+/* d.App Part Styles  */
 #app {
   background: url(../assest/images/play-bg.jpg) no-repeat center center / cover
     fixed;
@@ -445,7 +457,7 @@ span {
   -o-transform: scale(1.1);
 }
 
-/* Popular Games Part Styles */
+/* e.Popular Games Part Styles */
 .popular-games {
   display: flex;
   justify-content: center;
@@ -483,7 +495,7 @@ span {
   margin-right: 10px;
 }
 
-/* Footer Part Styles */
+/* 06.Footer Part Styles */
 #footer-section {
   background-image: linear-gradient(
     110.1deg,
