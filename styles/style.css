@@ -258,7 +258,7 @@ span {
   width: 100%;
 }
 .banner-img {
-  width: 50%;
+  width: 100%;
 }
 .banner-content h1,
 .banner-content h2 {
@@ -308,8 +308,10 @@ span {
 
 .games-card {
   position: relative;
+  box-shadow: 0px 0px 9px 4px #ccc;
+  padding: 15px;
+  border-radius: 18px;
 }
-jus
 .image {
   display: block;
   width: 100%;
@@ -322,8 +324,6 @@ jus
   bottom: 0;
   left: 0;
   right: 0;
-  height: 100%;
-  width: 100%;
   opacity: 0;
   transition: 0.3s ease;
   background-color: black;
@@ -540,6 +540,10 @@ jus
 .icon-container i {
   font-size: 30px;
   color: white;
+}
+
+.footer-menu2 {
+  margin-bottom: 30px;
 }
 
 .footer-menu2 li {
