@@ -61,7 +61,7 @@
   --main-color: #2d25a0;
   --main-text-color: #534c64;
   --main-heading-color: #0b0223;
-  --heading-gradient-color: #f948b2;
+  --heading-gradient-color: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
   --secondary-color: #deb887;
   --primary-button-color: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
   --secondary-button-color: #4ec5f7;
@@ -145,7 +145,10 @@ textarea:focus {
 }
 
 span {
-  color: #f948b2;
+  background: var(--heading-gradient-color);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* ----------------------------------
@@ -158,7 +161,7 @@ span {
 }
 
 .btn-primary {
-  background-image: var(--primary-button-color);
+  background: var(--primary-button-color);
 }
 
 .btn-secondary {
