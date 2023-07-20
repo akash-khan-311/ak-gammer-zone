@@ -265,6 +265,20 @@ span {
   text-transform: uppercase;
   margin: 0;
 }
+.banner-content .list p {
+  cursor: pointer;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.banner-content .list p:hover {
+  background: var(--heading-gradient-color);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .banner-content > .list p > i {
   color: var(--heading-gradient-color);
   margin-right: 10px;
